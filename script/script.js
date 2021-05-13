@@ -22,7 +22,7 @@ async function getQuote() {
     loadingInProgress();
 
     const apiUrl = 'http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json';
-    const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
+    const proxyUrl = 'https://boiling-citadel-01655.herokuapp.com/';
 
     try {
         const response = await fetch(proxyUrl + apiUrl);
